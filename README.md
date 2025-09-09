@@ -20,7 +20,7 @@ Define the Subscriber class that subscribes to MusicPlayer events. Each event (S
 ### Program.cs :
 This is the program's entry point. It creates instances of MusicPlayer and Subscriber, subscribes subscribers to player events, and then allows the user to enter actions (play, pause, stop, skip) in the console. Each action executes the corresponding MusicPlayer method, triggering events that notify subscribers.
 
-### -----------------------------------------------------------------------------------
+#
 
 ### Esta es una aplicación de consola creada con delegados y eventos con .NET Core 9.0
 
@@ -41,3 +41,9 @@ Define la clase Subscriber que se suscribe a los eventos de un MusicPlayer. Cada
 
 ### Program.cs : 
 Es el punto de entrada del programa. Crea instancias de MusicPlayer y Subscriber, suscribe a los suscriptores a los eventos del reproductor y luego permite al usuario ingresar acciones (play, pause, stop, skip) en la consola. Cada acción ejecuta el método correspondiente del MusicPlayer, disparando los eventos que notifican a los suscriptores.
+
+#
+
+This exercise is part of 'Hands-on Assignment 1 - Events and Delegates' from the 'Advanced C# Programming in .NET Core' course by EDUCBA on Coursera.
+
+Este ejercicio corresponde a la 'Actividad práctica 1 - Eventos y Delegados' del curso 'Advanced C# Programming in .NET Core' de EDUCBA en Coursera.
