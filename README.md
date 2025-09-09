@@ -11,13 +11,13 @@
 
 ## It consists of three classes:
 
-### MusicPlayer.cs:
+### MusicPlayer.cs :
 Define a SongEventHandler delegate and a MusicPlayer class that declares four events: SongPlayed, SongPaused, SongStopped, and SongSkipped. The class provides Play, Pause, Stop, and Skip methods that invoke the corresponding events if there are subscribers.
 
-### Subscriber.cs:
+### Subscriber.cs :
 Define the Subscriber class that subscribes to MusicPlayer events. Each event (SongPlayed, SongPaused, SongStopped, SongSkipped) is handled by a lambda function that prints a custom message with the subscriber's name and the associated song.
 
-### Program.cs:
+### Program.cs :
 This is the program's entry point. It creates instances of MusicPlayer and Subscriber, subscribes subscribers to player events, and then allows the user to enter actions (play, pause, stop, skip) in the console. Each action executes the corresponding MusicPlayer method, triggering events that notify subscribers.
 
 ### -----------------------------------------------------------------------------------
