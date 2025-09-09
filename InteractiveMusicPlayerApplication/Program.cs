@@ -6,11 +6,11 @@ internal class Program
     static void Main()
     {
         MusicPlayer player = new MusicPlayer();
-        Suscriber sub1 = new Suscriber("User1");
-        Suscriber sub2 = new Suscriber("User2");
+        Subscriber sub1 = new Subscriber("User1");
+        Subscriber sub2 = new Subscriber("User2");
 
-        sub1.Suscribe(player);
-        sub2.Suscribe(player);
+        sub1.Subscribe(player);
+        sub2.Subscribe(player);
 
         while (true)
         {

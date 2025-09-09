@@ -2,12 +2,12 @@
 
 namespace InteractiveMusicPlayerApplication
 {
-    internal class Suscriber
+    internal class Subscriber
     {
         public string Name { get; }
-        public Suscriber(string name) => Name = name;
+        public Subscriber(string name) => Name = name;
 
-        public void Suscribe(MusicPlayer player)
+        public void Subscribe(MusicPlayer player)
         {
             player.SongPlayed += msg =>
             Console.WriteLine($"{Name} is now enjoying: {msg}");
