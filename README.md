@@ -1,12 +1,13 @@
 # Interactive Music Player
 
-### This is a console application built with delegates and events using .NET Core 9.0.
+### This is a console application built with delegates and events using .NET Core 9.0
+
 ### The application prompts the user for a song title and an action, which could be:
-### - Play
-### - Pause
-### - Stop
-### - Skip
-### - Exit
+- Play
+- Pause
+- Stop
+- Skip
+- Exit
 
 ## It consists of three classes:
 
@@ -22,12 +23,13 @@ This is the program's entry point. It creates instances of MusicPlayer and Subsc
 ### -----------------------------------------------------------------------------------
 
 ### Esta es una aplicación de consola creada con delegados y eventos con .NET Core 9.0
+
 ### La aplicación pide un título de canción y una acción al usuario que podría ser:
-### - Play
-### - Pause
-### - Stop
-### - Skip
-### - Exit
+- Play
+- Pause
+- Stop
+- Skip
+- Exit
 
 ## Consiste de 3 clases:
 
